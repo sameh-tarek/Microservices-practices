@@ -15,4 +15,9 @@ public class PatientController {
     public String getPatient(@RequestParam String name) {
         return patientService.getPatient(name);
     }
+
+    @GetMapping("/doctors/patients-feign")
+    public String getPatientFeign(@RequestParam String name) {
+        return patientService.getPatientByFeignClient(name);
+    }
 }

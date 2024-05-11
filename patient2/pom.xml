@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.sameh.microservices</groupId>
-    <artifactId>doctor</artifactId>
+    <artifactId>patient</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>doctor</name>
-    <description>doctor</description>
+    <name>patient</name>
+    <description>patient</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -62,12 +62,6 @@
             <version>4.1.0</version>
         </dependency>
         <!--   ./Eureka Client     -->
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>4.1.0</version>
-        </dependency>
     </dependencies>
 
     <build>
